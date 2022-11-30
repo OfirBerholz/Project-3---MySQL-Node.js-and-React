@@ -1,0 +1,46 @@
+.Register-Background{
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../Assets/Images/Backgrounds/Auth-Register-Background-Image.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Register {
+  /* margin-left: 40vw; */
+  width: 400px;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  text-align: left;
+}
+
+.Register input,
+.Register button {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.Register button {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.Register .css-46bh2p-MuiCardContent-root {
+  padding-bottom: 0px;
+}
+
+.Register h5 {
+  font-family: 'Lobster';
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.Register span {
+  color: red;
+  margin: 0 20px;
+  position: absolute;
+  font-size: small;
+}

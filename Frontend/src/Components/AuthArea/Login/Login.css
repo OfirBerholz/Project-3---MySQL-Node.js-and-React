@@ -1,0 +1,46 @@
+.Login-Background{
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../Assets/Images/Backgrounds/Auth-Login-Background-Image.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Login {
+  /* margin-left: 40vw; */
+  width: 400px;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  text-align: left;
+}
+
+.Login input,
+.Login button {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.Login .css-46bh2p-MuiCardContent-root {
+  padding-bottom: 0px;
+}
+
+.Login button {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.Login h5 {
+  font-family: 'Lobster';
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.Login span {
+  color: red;
+  margin: 0 20px;
+  position: absolute;
+  font-size: small;
+}

@@ -1,0 +1,12 @@
+.Footer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #040000;
+}
+
+.Footer h5 {
+  color: #898e94;
+  font-style: normal;
+}

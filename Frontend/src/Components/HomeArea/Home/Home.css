@@ -1,0 +1,16 @@
+.Home {
+    height: 100%;
+    background-image: url("../../../Assets/Images/Backgrounds/Home-Background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Home > .AddVacation {
+    position: absolute;
+    right: 30px;
+    top: 100px;
+}
+
+.MuiList-root {
+    width: 350px;
+}

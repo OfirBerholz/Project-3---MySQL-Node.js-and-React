@@ -1,0 +1,36 @@
+.VacationList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.VacationList > a > .AddVacationButton {
+    position: absolute;
+    right: 30px;
+    top: 100px;
+}
+
+.isFollowingButton {
+    width: 100%;
+}
+
+.isFollowingButton > label {
+    margin: auto;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+nav > ul {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}

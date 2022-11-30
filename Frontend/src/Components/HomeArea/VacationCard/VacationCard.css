@@ -1,0 +1,54 @@
+.VacationCard {
+    text-align: left;
+    padding: 10px;
+    width: 300px;
+}
+
+.VacationCard .CardHeader {
+    display: inline-block;
+    width: 230px;
+    word-wrap:break-word;
+}
+
+.VacationCard > div > img {
+    height: 150px;
+    width: 300px;
+}
+
+.VacationCard > div:last-child {
+    margin: auto;
+}
+
+.VacationCard .FollowersButton {
+      box-shadow: 'none';
+      text-transform: 'none';
+      font-size: 16;
+      padding: '6px 12px';
+      border: '1px solid';
+      line-height: 1.5;
+      background-color: '#0063cc';
+      border-color: '#0063cc';
+      font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",;
+      margin-right: 10px;
+}
+
+.VacationCard .FollowersButton:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: none;
+}
+
+.VacationCard .FollowersButton:active {
+    box-shadow: none;
+    background-color: #0062cc;
+    border-color: #005cbf;
+}
+
+.VacationCard .FollowersButton:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5);
+}
+
+.VacationCard .CardContent {
+    height: 250px;
+    overflow: auto;
+}
